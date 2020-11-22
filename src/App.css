@@ -1,0 +1,30 @@
+body{  background-color:wheat
+}
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+  flex-direction: column;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 34px;
+  padding: 20px 10px;
+  background: #333;
+  color: #bbb;
+  text-align: center;
+  z-index: 2;
+}
+.user-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 2%;
+  margin-top: 20px;
+}
